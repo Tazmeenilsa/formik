@@ -5,8 +5,8 @@ import Form from './component/Formik/Form';
 function App() {
   return (
     <div >
-     {/* <Form /> */}
-     <Axios/>
+     <Form />
+     {/* <Axios/> */}
     </div>
   );
 }
