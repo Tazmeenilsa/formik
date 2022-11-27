@@ -1,12 +1,11 @@
 import './App.css';
-import Axios from './component/Axios/Axios';
-import Form from './component/Formik/Form';
 
+import Form from './component/Formik/Form';
+import './component/config/config'
 function App() {
   return (
     <div >
      <Form />
-     {/* <Axios/> */}
     </div>
   );
 }
